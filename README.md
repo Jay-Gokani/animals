@@ -1,8 +1,8 @@
-## Animals
+# Animals
 A template Python project structure, using animals as an example :lion:
 
-# A simple structure for one script
-
+### A simple structure for one script
+```
 animal/
     rhino.py
     .gitignore
@@ -11,9 +11,9 @@ animal/
     requirements.txt
     setup.py
     tests.py
-
-# A structure for a package
-
+```
+### A structure for a package
+```
 animals/
     animals/
         __init__.py
@@ -28,9 +28,9 @@ LICENCE
 requirements.txt
 setup.py
 Makefile
-
-# A structure for multiple packages
-
+```
+### A structure for multiple packages
+```
 animals/
     __init__.py
     rhino/
@@ -51,9 +51,9 @@ README.md
 LICENCE
 requirements.txt
 setup.py
-
-# Structure of a complex application with multiple packages
-
+```
+### Structure of a complex application with multiple packages
+```
 animals/
     animals/
         __init__.py
@@ -89,6 +89,6 @@ animals/
     .gitignore
     README.md
     LICENCE
-    requirements.txt
     setup.py
-    
+    requirements.txt
+```    
